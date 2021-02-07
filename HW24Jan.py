@@ -6,8 +6,6 @@ save_number = int()
 print("Здравствуйте. Вы зашли в приложение калькулятор. Вводите примеры в строку, если хотите узнать ответ")
 while True:
     examle = (input("Вводите пример >>> ").split())
-    print(examle)
-    print(len(examle))
     if len(examle) == int(3):
         if examle[1] == "+":
             print(int(examle[0]) + int(examle[2]))

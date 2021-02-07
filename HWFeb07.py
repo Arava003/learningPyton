@@ -52,11 +52,3 @@ while True:
         print(cursor.fetchall())
 
     connect.commit()
-
-'''
-create name_table (name text, password text)
-insert into name_table values (...)
-select * from name_table where name="Bob"
-update name_table set name="Chris" where name="Bob"
-drop name_table
-'''
